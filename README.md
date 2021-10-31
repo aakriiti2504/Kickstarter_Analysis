@@ -1,4 +1,4 @@
-# Kickstarting with Excel
+# An Analysis of Kickstarter Campaigns with Excel
 Performing analysis on Louise's Kickstarter data to uncover trends in various categories for organizing a number of events across different countries.
 
 ## Overview of Project
@@ -39,6 +39,7 @@ For outcomes based on goals, the goals were divided into 12 different categories
 From the chart it can be noted that the most number of successful (388) events were in the goal range of '1000 to 4999'. However the highest 'Percentage Successful' was 76% for 'Less than 1000'. The least (0) succesful  and 'Percentage successful' was in the range of '45000 to 49999'. The goal range of '15000 to 19999' had same values (12) for both 'Number Successful' and 'Number Failed'. The highest 'Percentage Failed' (100%) was for '45000 to 49999'. 'Greater than 50000' came a close second at 96%. '35000 to 39999' and '40000 to 44999' had same values for 'Percentage Successful' (67%) and 'Percentage Failed'(33%). They were also same for range '15000 to 19999' at 50%. The lowest 'Percentage Failed' was for 'Less than 1000' at 24%. 
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/23488019/139595518-98e3e33c-8016-4abf-bc4e-1f964804fc1b.png)
+---
 
 ### Challenges and Difficulties Encountered
 
@@ -93,7 +94,7 @@ At the Edinburgh Festival Fringe, Louise was inspired by 5 plays that are shown 
 
 
 
-
+---
 
 
 ### - Category Statistics:
@@ -107,7 +108,7 @@ At the Edinburgh Festival Fringe, Louise was inspired by 5 plays that are shown 
 ![Category Statistics](https://user-images.githubusercontent.com/23488019/139599191-68a7be8e-5928-4af8-aa64-ca2ed8b137ff.png)
 
  
- 
+ ---
  
  
  
@@ -124,19 +125,17 @@ This data is similar to what we created in the analysis exceptthe fact that we a
 
 
 
-
+---
 
 ### - Parent Category Outcomes:
 
 This particular chart shows the successful, live, failed and canceled outcomes in the various parent categories all over the world. If needed the country can be filtered to one country or a combination of them.
 
-         
+        
  ![Parent category Outcomes chart](https://user-images.githubusercontent.com/23488019/139599249-dcda048a-831f-4adf-983d-277cb3cdf5a7.png)
  
- 
- 
- 
- 
+  
+ ---
 
  ### - Subcategory Statistics:
  
@@ -151,6 +150,7 @@ This particular chart shows the successful, live, failed and canceled outcomes i
  ![Subcategory statistics](https://user-images.githubusercontent.com/23488019/139599262-dc46e0ea-68e2-4f7c-947d-d66a45a22d90.png)
  
  
+ ---
  
  
  
@@ -159,4 +159,4 @@ This particular chart shows the successful, live, failed and canceled outcomes i
  The dataset can be used to calculate the mean and other statistical values. The tabulated datat can be seen in the picture below. Various statistical formulas can be used to calculate the same. Here, the mean, median, upper and lower quartiles, inter quartile ranges for goal and pledged columns have been calculated. With the inclusion of statistical data, Louise can carry on with her campaign with confidence. Information is presented to Louise so that she can be informed of the campaign strategy. The organization and sorting of data provides strength to our analysis.
  
 ![1 5 2 table](https://user-images.githubusercontent.com/23488019/139599785-38a71e09-2168-46ef-a2c2-2cdd90876315.png)
-
+---
