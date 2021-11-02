@@ -8,7 +8,7 @@ This project revolves around an upcoming playwright Louise who has started a cro
 Throughout this project Microsoft Excel was used to sort, organize and analyze crowdfunding data. The detailed analysis will help in determining the specific factors that would help in making the campaign for Louise successful. Pivot tables and charts were used to visualize the data in a specific setup.
 
 ### Purpose
-The purpose of this project is to analyze our data based on various parameters and draw conclusions based on the outcomes. The dataset provided mirrors a real world scenario that rquires data analysis and visualization. The main purpose of this project is to help Louise plan her crowdfunding campaign successfully so that she can meet her goals for the play 'Fever'. 
+The purpose of this project is to analyze our data based on various parameters and draw conclusions based on the outcomes. The dataset provided  a real world scenario that requires data analysis and visualization. The main purpose of this project is to help Louise plan her crowdfunding campaign successfully so that she can meet her goals for the play 'Fever'. 
 
 The detailed analysis would help Louise understand the trend and get an in depth insight into her campaign from start to finish. The findings will also help her to organize more such campaigns in the future and show her how she can determine factors important for a successful campaign. The analyzed data foucuses on helping Louise kickstart her production.
 
@@ -16,14 +16,14 @@ The detailed analysis would help Louise understand the trend and get an in depth
 Louise is planning to organize a crowdfunding campaign to fund her play 'Fever'. In a short duration, she came close to its fundraising goals. The kickstarter dataset was used to filter and organize data according to various needs and scenarios. 
 
 ### Challenges
-There were a few challenges faced during the analysis. One of them being that the dataset was huge. The excel sheet consisted of 21 columns and 4115 rows of data. Filters were applied and cleared carefully. Before a new analysis or filter was applied, it was made sure that the old filters were cleared. when creating pivot tables, fields were carefully selected so that the desired tabular data could be generated. Chart title an dchart elements were also selected correspondingly. The COUNTIFS() function was complicated to use in the beginning and was carefully typed for each column. The 'live' outcome was deselected while filtering the pivot table for 'Outcomes vs Goals' in the 'plays' category.
+There were a few challenges faced during the analysis. One of them being that the dataset was huge. The excel sheet consisted of 21 columns and 4115 rows of data. Filters were applied and cleared carefully. Before a new analysis or filter was applied, it was made sure that the old filters were cleared. When creating pivot tables, fields were carefully selected so that the desired tabular data could be generated. Chart title and chart elements were also selected correspondingly. The COUNTIFS() function was complicated to use in the beginning and was carefully typed for each column. The 'live' outcome was deselected while filtering the pivot table for 'Outcomes vs Goals' in the 'plays' category.
 
 ### Analysis of Outcomes Based on Launch Date
-The launch date in the dataset was given in the UNIX timestamp format hence it was required to convert the timestamp in readable format. A separate column 'Date Created Conversion' was created to convert the timestamp in the readable format. A pivot table was created using the 'Date created conversion' in the rows section. 'Outcomes' were put tn the columns and the values section whereas 'parent category' and 'years' was kept in th filter section. After the pivot table was created, the parent category was sorted for 'theater'. As a result all the count of outcomes were specific to the theater category.
+The launch date in the dataset was given in the UNIX timestamp format hence it was required to convert the timestamp in readable format. A separate column 'Date Created Conversion' was created to convert the timestamp in the readable format. A pivot table was created using the 'Date created conversion' in the rows section. 'Outcomes' were put in the columns and the values section whereas 'parent category' and 'years' were kept in the filter section. After the pivot table was created, the parent category was sorted for 'theater'. As a result all the count of outcomes were specific to the theater category.
 
 ![Theater_Outcomes vs launch table](https://user-images.githubusercontent.com/23488019/139595596-dc3d2706-c8a0-4f97-b38c-af03cb9bf286.png)
 
-It can be noted that there are total of 839 successful, 493 failed and 37 canceled outcomes. The grand total of all these outcomes is 1369. The highest(111) and lowest(37) successful events were in the month of May and December respectively. The highest(52) and lowest(31)failed outcomes were in the month of May and November respectively. There were no canceled events in October and highest in January. January and March had same number of successful (56) events and failed (33) events. The month of May and June both have greater success rate. January, June, July and October had similar number of failed campaigns.
+It can be noted that there are total of 839 successful, 493 failed and 37 canceled outcomes. The grand total of all these outcomes is 1369. The highest(111) and lowest(37) successful events were in the month of May and December respectively. The highest(52) and lowest(31) failed outcomes were in the month of May and November respectively. There were no canceled events in October and highest in January. January and March had same number of successful (56) events and failed (33) events. The month of May and June both have greater success rate. January, June, July and October had similar number of failed campaigns.
 
 
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/23488019/139595573-4fa210e6-f7b7-4d67-b027-873f7047d765.png)
@@ -114,7 +114,7 @@ At the Edinburgh Festival Fringe, Louise was inspired by 5 plays that are shown 
  
 ### - All Outcomes Based on Launch Date for theater(Including Live):
 
-This data is similar to what we created in the analysis exceptthe fact that we are showing the live outcomes in the table and chart too. The outcomes are based on the Launch Dates converted from the timestamps.
+This data is similar to what we created in the analysis except the fact that we are showing the live outcomes in the table and chart too. The outcomes are based on the Launch Dates converted from the timestamps.
 
 
 ![All Outcomes based on launch date for theater table](https://user-images.githubusercontent.com/23488019/139599220-7056d5c2-961e-4fd7-bcfb-167d44dfd5a7.png)
@@ -156,7 +156,7 @@ This particular chart shows the successful, live, failed and canceled outcomes i
  
  ### - Descriptive Statistics:
  
- The dataset can be used to calculate the mean and other statistical values. The tabulated datat can be seen in the picture below. Various statistical formulas can be used to calculate the same. Here, the mean, median, upper and lower quartiles, inter quartile ranges for goal and pledged columns have been calculated. With the inclusion of statistical data, Louise can carry on with her campaign with confidence. Information is presented to Louise so that she can be informed of the campaign strategy. The organization and sorting of data provides strength to our analysis.
+ The dataset can be used to calculate the mean and other statistical values. The tabulated data can be seen in the picture below. Various statistical formulas can be used to calculate the same. Here, the mean, median, upper and lower quartiles, inter quartile ranges for goal and pledged columns have been calculated. With the inclusion of statistical data, Louise can carry on with her campaign with confidence. Information is presented to Louise so that she can be informed of the campaign strategy. The organization and sorting of data provides strength to our analysis.
  
 ![1 5 2 table](https://user-images.githubusercontent.com/23488019/139599785-38a71e09-2168-46ef-a2c2-2cdd90876315.png)
 ---
